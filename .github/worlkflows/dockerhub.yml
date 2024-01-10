@@ -15,4 +15,4 @@ push_to_registry:
         uses: docker/build-push-action@v4
         with:   context: DockerFileFolder/
           push: true
-          tags: sample/sampleimage:latest
+          tags: sample_Docker/sampleimage:latest
