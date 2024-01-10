@@ -1,0 +1,11 @@
+version: '3'
+services:
+  server:
+    container_name: sample
+    build:
+      context: .
+     dockerfile: dockerfile
+    ports:
+      - "3333:5000"
+
+      
