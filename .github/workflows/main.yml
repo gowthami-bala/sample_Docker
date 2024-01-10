@@ -17,4 +17,4 @@ jobs:
      with: 
        context: .
        push: true
-       tags: sample_Docker/sampleimage:latest
+       tags: sample_docker/sampleimage:latest
